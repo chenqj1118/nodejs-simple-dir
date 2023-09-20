@@ -1,0 +1,26 @@
+{
+  "name": "xx",
+  "version": "1.0.0",
+  "description": "nodejs xx",
+  "main": "src/index.js",
+  "keywords": [
+    "xx"
+  ],
+  "scripts": {
+    "test": "mocha test/*.@(js)",
+    "build": "webpack --mode production",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/"
+  },
+  "author": "bokesoft",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^10.2.0",
+    "should": "^13.2.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
